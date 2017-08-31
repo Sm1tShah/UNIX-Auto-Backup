@@ -1,0 +1,15 @@
+//Smit Shah sss160030@utdallas.edu cs3376
+
+You may need to change the -I flag path to match where the grader's tclap is
+
+"make all"
+
+modify config file as needed
+
+./Prog5 -d
+
+Note: If a SIGHUP is sent and the config file shows a new logging file then the new logging file will be put but will only be created once there is a need to log something.
+AKA the new logging file will only appear if you change the watchdir which will cause a "x file was modified" logging message and be logged.
+The program waits at the "read()" function until the watchdir has any modification to it
+
+Please email me if you have any questions.
